@@ -25,7 +25,7 @@ function ProductDetails() {
 
   if (loading) return <Spinner animation="border" className="d-block mx-auto mt-5" />;
   if (!product) return <p>Product not found</p>;
-
+{/* This is the Product Card to house all the pulled API info */}
   return (
     <Container className="mt-4">
       <Card>
@@ -39,7 +39,7 @@ function ProductDetails() {
           <Button onClick={() => navigate(`/edit-product/${product.id}`)}>Edit</Button>
         </Card.Body>
       </Card>
-
+      {/* Added the Delete Button Here */}
       <Modal show={showConfirm} onHide={() => setShowConfirm(false)}>
         <Modal.Header closeButton><Modal.Title>Confirm Delete</Modal.Title></Modal.Header>
         <Modal.Body>Are you sure you want to delete this product?</Modal.Body>
