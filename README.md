@@ -1,12 +1,15 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Core Features
+ ✅ Home page with navigation.
+ ✅ Fetch and display products on /products.
+ ✅ View individual product details on /products/:id.
+ ✅ Add, edit, and delete products with API interactions.
+🎨 Styling & Layout
+ ✅ Uses React Bootstrap for styling and layout.
+ ✅ Fully responsive on desktop and mobile devices.
+🔄 API Handling
+ ✅ Handles API loading states and errors.
+ ✅ Uses Axios or Fetch for API interactions.
+ ✅ Clearly communicates that FakeStoreAPI is a testing API—responses to POST/PUT/DELETE will appear successful, but the underlying data will not change permanently.
+💡 Code Structure
+ ✅ Organized React components with reusable structure.
+ ✅ Uses React Router for navigation.
