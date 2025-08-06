@@ -39,7 +39,7 @@ function ProductDetails() {
           <Button onClick={() => navigate(`/edit-product/${product.id}`)}>Edit</Button>
         </Card.Body>
       </Card>
-      {/* Added the Delete Button Here */}
+      {/* Pop-up modal to confirm delete */}
       <Modal show={showConfirm} onHide={() => setShowConfirm(false)}>
         <Modal.Header closeButton><Modal.Title>Confirm Delete</Modal.Title></Modal.Header>
         <Modal.Body>Are you sure you want to delete this product?</Modal.Body>
